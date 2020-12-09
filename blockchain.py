@@ -3,21 +3,20 @@
 class Blockchain(obj):
     def __init__(self):
         self.chain = []
-        self.curr_trnsactions = []
+        self.curr_transactions = []
 
     def new_block():
         pass
 
-    def new_trnsaction():
+    def new_transaction():
         pass
 
     def hash(block):
         pass
 
+    @property
     def last_block(self):
         pass
-
- 
 
 
 
